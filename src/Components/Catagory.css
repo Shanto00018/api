@@ -1,0 +1,33 @@
+.catc{
+    width: 100%;
+}
+.catcontainer{
+    width:75%;
+    margin: 2em auto;
+    display: flex;
+    max-width: 980px;
+}
+
+.image
+{
+    width:22%;
+    height: auto;
+    margin: 0 1em;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:800px)
+{
+    .catcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:90%;
+
+    }
+    .image{
+        width: 70%;
+        height: auto;
+        margin: 1em auto;
+    }
+}
