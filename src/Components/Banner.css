@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bannercontainer{
+    width: 100vw;
+    background-image: linear-gradient(to right, violet, blue);
+}
+.maincontainer{
+    width:80%;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 0;
+}
+.description
+{
+    width: 50%;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.banner
+{
+    width: 50%;
+    height: auto;
+}
+.paragraph
+{
+    margin: auto;
+    font-size: 1.1rem;
+    
+}
+.button{
+    padding:1em 1.5em;
+    margin: 2em 1em 1em 0em;
+    background-color: white;
+    color: violet;
+    border-radius: .8rem;
+    font-size: 1rem ;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: .1em;
+}
+.v2{
+    background-color:transparent;
+    color: white;
+    border-color: white;
+    
+
+}
+.heading{
+    font-size: 7rem;
+    font-weight: 6000;
+    
+}
+@media screen and (max-width:800px)
+{
+    .maincontainer{
+        display: flex;
+        flex-direction: column-reverse;
+        width:95%;
+    }
+    .description
+    {
+        width: 100%;
+    }
+    .heading
+    {
+        font-size: 5rem;
+        margin-left: -.5rem;
+    }
+    .banner
+    {
+        
+        width:100%;
+    }
+    
+}

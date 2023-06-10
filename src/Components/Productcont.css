@@ -1,0 +1,45 @@
+.card
+{
+    background-color: rgb(248, 245, 245);
+    width:20%;
+    margin: 1.5em;
+    padding: .5rem 0 1rem 0;
+    border-radius: .1em;
+
+}
+.tumbnail
+{
+    
+    width:80%;
+    margin: auto;
+}
+.tumb{
+    width: 100%;
+    height: auto;
+    
+}
+.tumb:hover
+{
+    transform: scale(1.05);
+}
+.prod_des{
+    font-size: 1rem;
+}
+.sign{
+    font-size: .7rem;
+   
+}
+.tag
+{
+    font-size: 1rem;
+}
+.price{
+    font-size: 1.4rem;
+}
+@media screen and (max-width:800px)
+{
+    .card
+    {
+        width:30%;
+    }
+}

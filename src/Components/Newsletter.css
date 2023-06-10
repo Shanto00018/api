@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.newcontainer
+{
+    
+    background-image: url("./../assets/images.jpeg");
+    background-size:cover ;
+}
+.lettercontainer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 3em 0;
+    font-size: .9rem;
+}
+.smallheader{
+    text-transform: uppercase;
+    color: rgb(57, 59, 59);
+}
+.biggertitle
+{
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+    
+}
+.media
+{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+
+}
+.form
+{
+    height: 2.5em;
+    width:15em;
+    border-color: white;
+    border-radius: .2rem;
+    margin: 1em .5em;
+    box-shadow: 1em rgba(0,0,0, 0.2);
+    
+}
+.subscribe_button
+{
+    padding:.5em 1em;
+    margin: 0 0 1em 0;
+    background-color: rgb(149, 9, 230);
+    color: white;
+    border-radius: .5em;
+    border: none;
+    font-size: 1rem;
+
+}
+.icon
+{
+    margin: .5em .5em;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:800px)
+{
+    .form{
+        margin-left: -1rem;
+    }
+}

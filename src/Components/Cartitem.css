@@ -1,0 +1,48 @@
+.cartproducts
+{
+    width: 100%;
+}
+.cartproduct
+{
+    width: 90%;
+    margin: 1rem auto;
+    /* border: .1em solid rgba(0,0,0,.1); */
+    box-shadow: .2em .2em .2em .2em #cecece;;
+}
+.bus
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.im
+{
+    width: 70%;
+    margin: auto;
+
+}
+.ig
+{
+    width: 100%;
+    height: auto;
+}
+.cartprodes
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.pricing
+{
+    margin-top: 1em;
+    text-align: center;
+}
+.cros{
+    border: none;
+    background-color: #fff;
+}
+.cartprodesname
+{
+    text-align: center;
+    font-size: 1.2rem;
+}

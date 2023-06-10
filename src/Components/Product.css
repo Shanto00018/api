@@ -1,0 +1,42 @@
+.product
+{
+    width: 100%;
+    
+}
+.productcontainer
+{
+    width:80% ;
+    max-width: 980px;
+    margin: auto;
+    padding: 2em 0;
+}
+.des
+{
+    width: 80%;
+    margin: auto;
+}
+.section_title
+{
+    font-size: 2rem;
+    
+}
+.underline{
+    height: .3em;
+    width: 4em;
+    background-color: rgb(177, 4, 245);
+    margin-bottom: 2rem;
+}
+.products
+{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+@media screen and (max-width:800px)
+{
+    .productcontainer
+    {
+        width: 95%;
+    }
+}
